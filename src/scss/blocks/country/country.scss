@@ -1,0 +1,43 @@
+@mixin country-width() {
+  width: $width-country;
+  box-sizing: border-box;
+}
+
+@mixin country-padding() {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.country {
+  &-input {
+    display: block;
+
+    @include country-width();
+    @include country-padding();
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0;
+
+    @include country-width();
+  }
+
+  &-item {
+    list-style-type: none;
+
+    background-color: white;
+
+    @include country-padding();
+  }
+
+  &-flag {
+    width: 25px;
+  }
+
+  &-text {
+    color: black;
+  }
+}
