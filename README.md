@@ -4,7 +4,7 @@
 
 ## Задачи 1-3
 
-Решение находится в папке [Task_1-3](https://github.com/annaign/test-iwu/Task_1-3)
+Решение находится в папке [Task_1-3](https://github.com/annaign/test-iwu/tree/master/Task_1-3)
 
 ## Задача 4. Country Suggest: компонент подсказки названия страны с флагами
 
