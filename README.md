@@ -38,6 +38,12 @@ Build with yarn:
 yarn build
 ```
 
+### Examples
+
+Screenshot when input is "we".
+
+![Example](readme/img.jpg)
+
 ---
 
 ### Used
