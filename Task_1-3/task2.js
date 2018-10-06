@@ -10,7 +10,7 @@ const ObjectDeepCopy = (object, deep) => {
     newObject = {};
   }
 
-  for (key in object) {
+  for (let key in object) {
     if (typeof object[key] === 'object' && object[key] !== null) {
       if (deep - 1 === 0) {
         console.log('Object copied is not fully! Key = ', key);

@@ -7,10 +7,10 @@ const brackets = {
 
 const CreateStrAllBrackets = brackets => {
   let str = [];
-  for (key in brackets) {
+  for (let key in brackets) {
     str.push(key);
   }
-  for (key in brackets) {
+  for (let key in brackets) {
     str.push(brackets[key]);
   }
 
@@ -18,7 +18,7 @@ const CreateStrAllBrackets = brackets => {
 };
 
 const CheckOpenBracket = char => {
-  for (key in brackets) {
+  for (let key in brackets) {
     if (char === key) {
       return 0;
     }
@@ -27,7 +27,7 @@ const CheckOpenBracket = char => {
 };
 
 const CheckCloseBracket = (char, lastOpenBracket) => {
-  for (key in brackets) {
+  for (let key in brackets) {
     if (char === brackets[key] && lastOpenBracket === key) {
       return 0;
     }
